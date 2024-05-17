@@ -1,3 +1,8 @@
+HI I'm Amirul. 
+This React.js project(Still Ongoing) is meant to be a simple calculator, 
+But instead of calling a library for the logic of the calculator I try to code it myself.(Still with a tutorial unfortunately :<).
+I hope to learn more and develop my skills through this project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
