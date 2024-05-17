@@ -1,10 +1,10 @@
-<h1>Hi, I'm Amirul! 👋
+<h3>Hi, I'm Amirul! 👋
 
 This React.js project (still ongoing) is meant to be a simple calculator. 🧮 Instead of calling a library for the logic of the calculator, I'm coding it myself. (Still following a tutorial, unfortunately. 😅)
 
 I hope to learn more and develop my skills through this project. 🚀✨
 
-</h5>
+</h3>
 
 # Getting Started with Create React App
 
