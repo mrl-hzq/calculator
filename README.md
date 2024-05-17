@@ -1,7 +1,7 @@
-#HI I'm Amirul. 
+<h1>HI I'm Amirul. 
 This React.js project(Still Ongoing) is meant to be a simple calculator, 
 But instead of calling a library for the logic of the calculator I try to code it myself.(Still with a tutorial unfortunately :<).
-I hope to learn more and develop my skills through this project.
+I hope to learn more and develop my skills through this project.</h5>
 
 # Getting Started with Create React App
 
