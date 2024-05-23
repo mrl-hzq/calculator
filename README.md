@@ -9,7 +9,7 @@ Overall, I think this is a pretty good first project to learn React 😊.
 I learned a lot about simple logic, like building the calculator itself and using the reducer function 🧠. 
 I hope to apply this knowledge to future projects 🚀.
 
-For now u can acces the Calculator from the link below
+For now u can access the Calculator from the link below
 https://calculator-iota-taupe-13.vercel.app/
 
 </h3>
