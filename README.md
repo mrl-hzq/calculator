@@ -5,7 +5,9 @@ This React.js project (Done!) is meant to be a simple calculator. 🧮 Instead o
 I hope to learn more and develop my skills through this project. 🚀✨
 
 All the relevant files would be in src folder(app.js mainly)
-Overall I think this is a pretty good first project to learn React, I learn a lot about simple logic for this case the calculator itself and the reducer function. I hope to apply this knowledge for future projects.
+Overall, I think this is a pretty good first project to learn React 😊.
+I learned a lot about simple logic, like building the calculator itself and using the reducer function 🧠. 
+I hope to apply this knowledge to future projects 🚀.
 
 </h3>
 </br>
