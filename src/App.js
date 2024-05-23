@@ -27,13 +27,14 @@ function reducer(state, { type, payload }) {
       if (payload.digit === "0" && state.currentOperand === "0") {
         return state
       }
-      if (payload.digit === "." && state.currentOperand.includes(".")) { 
+      if (payload.digit === "." && state.currentOperand?.includes(".")) { 
         return state
       } 
 
       return {
         ...state,
-        currentOperand: `${state.currentOperand || ""} ${payload.digit}`,
+        // currentOperand: `${state.currentOperand || ""} ${payload.digit}`, There wasnt supposed to be space before payload.digit
+        currentOperand: `${state.currentOperand || ""}${payload.digit}`,
       }
 
       case ACTIONS.CHOOSE_OPERATION:
@@ -133,7 +134,15 @@ function evaluate({ currentOperand, previousOperand, operation}) { //takes in st
   return computation.toString() //Return computation and change to string
 }
 
-
+const INTERGER_FORMATTER = new Intl.NumberFormat("en-us", {
+  maximumFractionDigit: 0,
+})
+function formatOperand(operand) {
+  if (operand == null) return
+  const [integer, decimal] = operand.split('.')
+  if (decimal == null) return INTERGER_FORMATTER.format(integer)
+    return `${INTERGER_FORMATTER.format(integer)}.${decimal}`
+}
 
 function App() {
   const [{currentOperand, previousOperand, operation }, dispatch] = useReducer(reducer,{})
@@ -142,8 +151,8 @@ function App() {
   return (
       <div className="calculator-grid">
         <div className="output">
-          <div className="previous-operand">{previousOperand} {operation}</div>
-          <div className="current-operand">{currentOperand}</div>
+          <div className="previous-operand">{formatOperand(previousOperand)} {operation}</div>
+          <div className="current-operand">{formatOperand(currentOperand)}</div>
         </div>
           <button className="span-two" onClick={() => dispatch({type: ACTIONS.CLEAR})}>AC</button>
           <button onClick={() => dispatch({type: ACTIONS.DELETE_DIGIT})}>DEL</button>
