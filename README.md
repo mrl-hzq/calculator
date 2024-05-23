@@ -1,11 +1,21 @@
 <h3>Hi, I'm Amirul! 👋
 
-This React.js project (still ongoing) is meant to be a simple calculator. 🧮 Instead of calling a library for the logic of the calculator, I'm coding it myself. (Still following a tutorial, unfortunately. 😅)
+This React.js project (Done!) is meant to be a simple calculator. 🧮 Instead of calling a library for the logic of the calculator, I'm coding it myself. (Still following a tutorial, unfortunately. 😅)
 
 I hope to learn more and develop my skills through this project. 🚀✨
 
 </h3>
-
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
